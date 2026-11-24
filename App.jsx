@@ -52,21 +52,22 @@ export default function App() {
         <section className="hero">
           <div className="page" aria-label="Screenplay-style introduction">
             <p className="slug">INT. A QUIET ROOM, NIGHT</p>
-            <p className="action">
-              A notebook, a camera, a laptop. SRI SAMYUKTHA K writes the first
-              line of something new.
-            </p>
-            <p className="cue">SAMYUKTHA</p>
-            <p className="dialogue">
-              I write poems and scripts, and I tell stories through video and
-              photographs.
-            </p>
+           <p className="action">
+  A curious BCA student exploring technology,
+  cybersecurity, and the digital world.
+</p>
+<p className="cue">SAMYUKTHA</p>
+<p className="dialogue">
+  I am pursuing BCA with a focus on Cyber Security.
+  I am passionate about technology, programming,
+  digital safety, and continuous learning.
+</p>
             <p className="action blink">
               She looks up. <span className="cursor" aria-hidden="true">|</span>
             </p>
           </div>
           <h1>Sri Samyuktha K</h1>
-          <p className="sub">Writer and visual storyteller</p>
+          <p className="sub">BCA Cyber Security Student</p>
           <div className="cta">
             <a className="btn primary" href="#craft">See what I do</a>
             <a className="btn" href={GITHUB} target="_blank" rel="noreferrer">GitHub</a>
